@@ -1,0 +1,25 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'inpaint_model.py'
+ outputting to 'inpaint_model_v2.py'
+--------------------------------------------------------------------------------
+
+45:13: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+113:13: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+126:13: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+179:32: INFO: Renamed 'tf.image.resize_bilinear' to 'tf.compat.v1.image.resize_bilinear'
+209:17: INFO: Renamed 'tf.get_collection' to 'tf.compat.v1.get_collection'
+210:12: INFO: Renamed 'tf.GraphKeys' to 'tf.compat.v1.GraphKeys'
+211:17: INFO: Renamed 'tf.get_collection' to 'tf.compat.v1.get_collection'
+212:12: INFO: Renamed 'tf.GraphKeys' to 'tf.compat.v1.GraphKeys'
+257:28: INFO: Renamed 'tf.image.resize_bilinear' to 'tf.compat.v1.image.resize_bilinear'
+--------------------------------------------------------------------------------
+
